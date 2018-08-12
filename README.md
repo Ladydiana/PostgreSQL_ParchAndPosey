@@ -8,8 +8,8 @@ PostgreSQL Parch and Posey Database from the Udacity Bertelsmann Nanodegree Scho
 
 ## Versions:
 
--- pgAdmin 4
--- PostgreSQL 10
+-pgAdmin 4
+-PostgreSQL 10
 
 
 ## Backup:
