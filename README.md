@@ -25,25 +25,27 @@ Database backup in folder: <b>Database Dump</b>
 ## Exercises List:
 
 ### Arithmetic Operations
-```
+
 1. Create a column that divides the standard_amt_usd by the standard_qty to find the unit price for standard paper for each order. 
    Limit the results to the first 10 orders, and include the id and account_id fields. 
 
 2. Write a query that finds the percentage of revenue that comes from poster paper for each order. 
    You will need to use only the columns that end with _usd. (Try to do this without using the total column). 
    Include the id and account_id fields.
-```
+
 
 ### Logical Operators
-```
+
 **lo1.sql**
-	Use the accounts table to find:
-	- All the companies whose names start with 'C'.
-	- All companies whose names contain the string 'one' somewhere in the name.
-	- All companies whose names end with 's'.
+Use the accounts table to find:
+- All the companies whose names start with 'C'.
+- All companies whose names contain the string 'one' somewhere in the name.
+- All companies whose names end with 's'.
 	
 **lo2.sql**
-	1. Use the accounts table to find the account name, primary_poc, and sales_rep_id for Walmart, Target, and Nordstrom.
-	2. Use the web_events table to find all information regarding individuals who were contacted via the channel of organic or adwords.
+1. Use the accounts table to find the account name, primary_poc, and sales_rep_id for Walmart, Target, and Nordstrom.
+2. Use the web_events table to find all information regarding individuals who were contacted via the channel of organic or adwords.
 	
-```
+**lo3.sql**
+1. Use the accounts table to find the account name, primary poc, and sales rep id for all stores except Walmart, Target, and Nordstrom.
+2. Use the web_events table to find all information regarding individuals who were contacted via any method except using organic or adwords methods.
