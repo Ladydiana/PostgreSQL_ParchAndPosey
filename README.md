@@ -22,6 +22,11 @@ cmd> pg_dump -U postgres ParchAndPosey_DB > ParchAndPosey_DB.sql
 Database backup in folder: <b>Database Dump</b>
 
 
+## ERD:
+
+[TODO]
+
+
 ## Exercises List:
 
 ### Arithmetic Operations
@@ -37,7 +42,7 @@ Database backup in folder: <b>Database Dump</b>
 ### Logical Operators
 
 **lo1.sql**
-Use the accounts table to find:
+1. Use the accounts table to find:
 - All the companies whose names start with 'C'.
 - All companies whose names contain the string 'one' somewhere in the name.
 - All companies whose names end with 's'.
@@ -49,3 +54,8 @@ Use the accounts table to find:
 **lo3.sql**
 1. Use the accounts table to find the account name, primary poc, and sales rep id for all stores except Walmart, Target, and Nordstrom.
 2. Use the web_events table to find all information regarding individuals who were contacted via any method except using organic or adwords methods.
+
+**lo4.sql**
+1. Write a query that returns all the orders where the standard_qty is over 1000, the poster_qty is 0, and the gloss_qty is 0.
+2. Using the accounts table find all the companies whose names do not start with 'C' and end with 's'.
+3. Use the web_events table to find all information regarding individuals who were contacted via organic or adwords and started their account at any point in 2016 sorted from newest to oldest.
