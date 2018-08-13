@@ -29,6 +29,8 @@ Database backup in folder: <b>Database Dump</b>
 
 ## Exercises List:
 
+- [Arithmetic Operations](https://github.com/Ladydiana/PostgreSQL_ParchAndPosey#arithmetic-operations)
+
 ### Arithmetic Operations
 
 **ao1.sql**
