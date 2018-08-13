@@ -36,12 +36,14 @@ Database backup in folder: <b>Database Dump</b>
 
 ### Logical Operators
 ```
-lo1.sql
+**lo1.sql**
 	Use the accounts table to find:
 	- All the companies whose names start with 'C'.
 	- All companies whose names contain the string 'one' somewhere in the name.
 	- All companies whose names end with 's'.
 	
-
+**lo2.sql**
+	1. Use the accounts table to find the account name, primary_poc, and sales_rep_id for Walmart, Target, and Nordstrom.
+	2. Use the web_events table to find all information regarding individuals who were contacted via the channel of organic or adwords.
 	
 ```
